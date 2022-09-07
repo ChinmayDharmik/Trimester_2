@@ -2,7 +2,7 @@
 
 ##### What is Machine Learning?
 
->> Using **Data** to uncover **unknown** Underlying process
+> Using **Data** to uncover **unknown** Underlying process
 
 ##### Components of Machine Learning
 
@@ -19,3 +19,13 @@
 5. Decision function g : X ->y such that g is equivalent to f(the actual function)
 
 --> for a new x' predict y' = g(x')
+
+***
+
+### Machine Learning Terminology
+
+#### Supervised Learning
+
+--> The data includes Two elements
+----> **Features** --> values that describe the data --> The compenents that that Model uses to develop its "BlackBox" Logic
+----> 
