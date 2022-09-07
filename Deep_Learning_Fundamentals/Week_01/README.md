@@ -30,4 +30,24 @@
 
 ----> **Features** --> values that describe the data --> The compenents that that Model uses to develop its "BlackBox" Logic
 
-----> 
+----> **Target/Labels** --> The Desired outcome for the set of Features 
+
+
+
+##### Types of supervised Models that we might encounter
+
+1. ***Regression*** :  Estimate a continuous target value for a feature, given target values for other features.
+
+2. ***Classification***  :  Estimate a discrete value (e.g. a class) for a feature given the target class of the other feature values.
+
+#### Unsupervised Learning
+
+--> Data **does not** have target or labels
+
+--> the aim of this perticular model is to find a pattern in the data
+
+##### Types of Unsupervised Models that we might encounter
+
+1. ***Clustering*** : Detect related sub-groups within a dataset.
+2. ***Dimension Reduction*** : Reduce a complex dataset by combining correlated features.
+3. ***Anamaly Detection*** : Identify unusual or outlier data points within a dataset.
