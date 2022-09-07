@@ -1,7 +1,9 @@
-Introduction to Machine Learning
+# WEEK 1: Introduction to Machine Learning
 
 -- components of machine learning 
+
 --- formulation 
+
 >> inputs (features) 
 >> outputs (label)
 >> underlying process (unknown)(blackbox process): f: X->Y
