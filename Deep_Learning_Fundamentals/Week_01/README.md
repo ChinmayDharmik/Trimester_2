@@ -27,5 +27,7 @@
 #### Supervised Learning
 
 --> The data includes Two elements
+
 ----> **Features** --> values that describe the data --> The compenents that that Model uses to develop its "BlackBox" Logic
+
 ----> 
