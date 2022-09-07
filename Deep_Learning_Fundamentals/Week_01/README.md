@@ -51,3 +51,9 @@
 1. ***Clustering*** : Detect related sub-groups within a dataset.
 2. ***Dimension Reduction*** : Reduce a complex dataset by combining correlated features.
 3. ***Anamaly Detection*** : Identify unusual or outlier data points within a dataset.
+
+
+>*** High-dimensional datasets***
+
+>The size of a dataset is measured by the number of data samples it contains, and also the number of dimensions per sample. For example, the housing dataset you will use in this week’s exercise has 10 features per property, so it is a 10-dimensional dataset. Visualising 10-dimensional data using 2D or 3D plots is a challenge that has been addressed by unsupervised learning methods. Richer data types used in machine learning (for example, images or genetic data) may contain thousands or millions of dimensions per sample.
+
