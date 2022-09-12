@@ -67,5 +67,19 @@
 
 **Quantity of data**
 
+On the other hand, a task like image classification requires millions of images, with thousands of examples per class to be identified.This is because an image is much more complex than a 2D data point.
 
+**Range or domain of data**
 
+For successful generalisation, it is critical not only to have enough data, but also data that is representative of future data points. For example, if you want to classify images of cats vs. dogs, it is important that you do not only have images of ginger cats. Otherwise, you will fail to accurately model what an average cat looks like, and therefore your solution will likely fail when applied to general images of cats and dogs.
+
+**Noise, outliers and errors**
+
+In most real-world sources of data, whether it originates from a sensor or from human annotations, noise and errors are inevitably present. Fortunately, there are several steps you can take to detect errors, and to reduce their impact on generalisation error, or even remove them from the data. You will encounter some examples of these in this week’s exercises.
+
+**Redundancy**
+
+Not all data is created equal. A common problem with large datasets is that only a small part of it is actually related to the output you want to predict. You have seen several techniques in previous courses to identify this and focus on useful data, such as:
+
+* dimension reduction, e.g. principal component analysis (PCA),
+* correlation with the target value.
