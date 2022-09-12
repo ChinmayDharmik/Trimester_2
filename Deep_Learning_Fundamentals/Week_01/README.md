@@ -83,3 +83,12 @@ Not all data is created equal. A common problem with large datasets is that only
 
 * dimension reduction, e.g. principal component analysis (PCA),
 * correlation with the target value.
+
+#### 2. Problems with models
+
+>Overfitting occurs when the model is too complex for the data, and therefore models the noise or other specific characteristics of the dataset, rather than learning a general pattern that the data represents. This impacts generalisation error as new data will not share these specific characteristics, even though it follows the same general pattern.
+
+>A simple remedy for overfitting is to select a simpler model. Typically, model complexity can be measured by the number of parameters.
+
+>More complex models cannot be so easily modified, however. Next week you will explore regularisation, which is a technique for ‘softly’ reducing the effective number of parameters available for a model when fitting it to data.
+
